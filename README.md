@@ -38,6 +38,14 @@ $$
 
 For linear Gaussian models, this distribution remains Gaussian. Therefore, instead of updating the whole probability distribution, the Kalman filter only updates the mean and covariance.
 
+## How to Run
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+
+
 ## Main Topics
 
 This project covers:
