@@ -38,12 +38,6 @@ $$
 
 For linear Gaussian models, this distribution remains Gaussian. Therefore, instead of updating the whole probability distribution, the Kalman filter only updates the mean and covariance.
 
-## How to Run
-
-Install the required packages:
-
-```bash
-pip install -r requirements.txt
 
 
 ## Main Topics
@@ -217,6 +211,14 @@ y_k = p_k + r_k
 $$
 
 This example shows an important feature of the Kalman filter: even if we only observe position directly, the filter can still estimate velocity through the dynamic model.
+
+## How to Run
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Example Results
 
