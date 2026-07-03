@@ -210,3 +210,18 @@ $$
 
 This example shows an important feature of the Kalman filter: even if we only observe position directly, the filter can still estimate velocity through the dynamic model.
 
+## Example Results
+
+The following plots show the performance of the Kalman filter on a simulated one-dimensional tracking problem.
+
+### Position Tracking
+
+The Kalman filter uses noisy position measurements to estimate the true hidden position.
+
+![Position tracking](figures/position_tracking.png)
+
+### Velocity Estimation
+
+Although only the position is observed, the Kalman filter also estimates the hidden velocity.
+
+![Velocity estimation](figures/velocity_estimation.png)
