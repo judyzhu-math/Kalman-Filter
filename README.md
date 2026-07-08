@@ -228,6 +228,9 @@ The following plots show the performance of the Kalman filter on a simulated one
 
 The Kalman filter uses noisy position measurements to estimate the true hidden position.
 
+the blue curve is the true position, the dots are noisy measurements, and the orange curve is the Kalman estimate.
+The estimate is smoother than the measurements, but it still follows the true trajectory.
+
 ![Position tracking](figures/position_tracking.png)
 
 ### Velocity Estimation
